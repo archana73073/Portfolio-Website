@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProjectCard=({title, description,image,tech})=>{
+const ProjectCard=({title, description,image,tech, demo, code})=>{
     return(
         <div className='bg-dark-300 rounded-2xl overflow-hidden hover:-translate-y-2 transition duration-300 cursor-pointer flex flex-col h-full'>
            <img src={image} alt={title} className='w-full h-60 object-cover' />
@@ -17,10 +17,21 @@ const ProjectCard=({title, description,image,tech})=>{
              {/* for buttoms view code and demo */}
              <div className='mt-auto'>
                 <div className='flex gap-2'>
-                <a href="demo.png" className='flex-1 text-center px-4 py-2 bg-[#12F7D6] rounded-lg font-medium hover:bg-[#12F7D6]/20 transition duration-300'>
+                
+                <a
+                href={demo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-1 text-center px-4 py-2 bg-[#12F7D6] rounded-lg font-medium hover:bg-[#12F7D6]/20 transition duration-300">
                     View Demo 
                 </a>
-                <a href="https://github.com/archana73073/Python_GUI_calculator" className='flex-1 text-center px-4 py-2  rounded-lg font-medium hover:bg-[#12F7D6]/20 transition duration-300 border border-[#12F7D6]'>Code</a>
+
+                <a
+                 href={code}
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="flex-1 text-center px-4 py-2 rounded-lg font-medium hover:bg-[#12F7D6]/20 transition duration-300 border border-[#12F7D6]"
+                >Code</a>
                  </div>
              </div>
              

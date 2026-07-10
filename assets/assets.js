@@ -76,8 +76,8 @@ export const projects = [
     image: projectImg4,
     tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Markdown"],
     icons: [FaReact, FaCloud],
-    demo: "#",
-    code: "#",
+    demo: "https://archana-portfolio73070.netlify.app/",
+    code: "https://github.com/archana73073/Portfolio-Website",
   },
   {
     title: "Python-GUI Calculator",
@@ -85,8 +85,9 @@ export const projects = [
     image: projectImg5,
     tech: ["Python","Tkinter"],
     icons: [FaReact, FaNodeJs, FaDatabase ],
-    demo: "#",
-    code: "#",
+    demo: "demo.png",
+    code: "https://github.com/archana73073/Python_GUI_calculator",
+    
   },
   
 ];
