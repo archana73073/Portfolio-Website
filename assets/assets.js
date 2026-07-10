@@ -1,12 +1,9 @@
 import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
 
 import profileImg from './arc_pic.jpg';
-import projectImg1 from './project1.avif';
-import projectImg2 from './project2.avif';
-import projectImg3 from './project3.avif';
 import projectImg4 from './project4.avif';
 import projectImg5 from './calculator.png';
-import projectImg6 from './project6.avif';
+
 
 
 export const assets = {
@@ -24,7 +21,7 @@ export const aboutInfo = [
     {
       icon: FaCode,
       title: 'Clean Code',
-      description: 'Writing clean, maintainable, and scalable code.',
+      description: 'Writing clean, maintainable, and efficient code.',
       color: 'text-blue'
     }
   ];
@@ -72,33 +69,7 @@ export const skills = [
 
 
 export const projects = [
-  // {
-  //   title: "E-Commerce Platform",
-  //   description: "A full-featured online store with shopping cart, user authentication, and payment processing.",
-  //   image: projectImg1,
-  //   tech: ["React", "Node.js", "MongoDB", "Stripe"],
-  //   icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
-  //   demo: "#",
-  //   code: "#",
-  // },
-  // {
-  //   title: "Task Management App",
-  //   description: "A productivity application with drag-and-drop functionality and real-time updates.",
-  //   image: projectImg2,
-  //   tech: ["Vue.js", "Firebase", "Tailwind CSS", "WebSockets"],
-  //   icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
-  //   demo: "#",
-  //   code: "#",
-  // },
-  // {
-  //   title: "Fitness Tracker",
-  //   description: "A mobile app for tracking workouts, nutrition, and health metrics.",
-  //   image: projectImg3,
-  //   tech: ["React Native", "GraphQL", "MySQL", "Chart.js"],
-  //   icons: [FaReact, FaDatabase],
-  //   demo: "#",
-  //   code: "#",
-  // },
+  
   {
     title: "Portfolio Website",
     description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
@@ -117,15 +88,7 @@ export const projects = [
     demo: "#",
     code: "#",
   },
-  // {
-  //   title: "AI Image Generator",
-  //   description: "Generate images using AI prompts powered by OpenAI's DALL·E model and Cloudinary.",
-  //   image: projectImg6,
-  //   tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
-  //   icons: [FaRobot, FaReact, FaCloud],
-  //   demo: "#",
-  //   code: "#",
-  // }
+  
 ];
 
 

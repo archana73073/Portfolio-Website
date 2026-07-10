@@ -71,7 +71,7 @@ const Contact=()=>{
                         {/* mobile number */}
                         <div className='flex items-start'>
                            <div className='text-[#12F7D6] text-2xl mr-4'>
-                              <FaPhone/>
+                              <FaPhone className='rotate-90'/>
                            </div>
                            <div>
                              <h3 className='text-lg font-semibold mb-2 '>Phone</h3>
