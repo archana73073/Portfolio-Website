@@ -11,8 +11,8 @@ const Navbar=()=>{
             <div>
                 <a href="#" className='text-3xl font-bold text-white'>
                     Archana 
-                    <span className='text-purple'>Verma</span>
-                    <div className='w-4 h-4 bg-purple rounded-full'></div>
+                    <span className='text-[#12F7D6]'>Verma</span>
+                    <div className='w-4 h-4 bg-[#12F7D6] rounded-full'></div>
                 </a>
             </div>
 

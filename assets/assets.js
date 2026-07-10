@@ -18,52 +18,16 @@ export const aboutInfo = [
     {
       icon: FaLightbulb,
       title: 'Innovative',
-      description: 'I love creating unique solutions to complex problems with cutting-edge technologies.',
+      description: 'Creating innovative solutions for real-world problems.',
       color: 'text-purple'
-    },
-    {
-      icon: FaPaintBrush,
-      title: 'Design Oriented',
-      description: 'Beautiful design and user experience are at the heart of everything I create.',
-      color: 'text-pink'
     },
     {
       icon: FaCode,
       title: 'Clean Code',
-      description: 'I write maintainable, efficient code following best practices and modern patterns.',
+      description: 'Writing clean, maintainable, and scalable code.',
       color: 'text-blue'
     }
   ];
-
-// export const aboutInfo = [
-//   {
-//     icon: FaCode,
-//     title: "Full Stack Development",
-//     description: "Build responsive web applications using React.js, Node.js, Express.js, and MongoDB.",
-//     color: "text-[#12F7D6]"
-//   },
-//   {
-//     icon: FaLaptopCode,
-//     title: "DSA & Problem Solving",
-//     description: "Regularly practice Data Structures and Algorithms to improve logical thinking and coding skills.",
-//     color: "text-[#12F7D6]"
-//   },
-//   {
-//     icon: FaDatabase,
-//     title: "Backend & APIs",
-//     description: "Develop REST APIs, integrate databases, and manage server-side application logic.",
-//     color: "text-[#12F7D6]"
-//   },
-//   {
-//     icon: FaGraduationCap,
-//     title: "Continuous Learning",
-//     description: "Continuously learning modern web technologies and building real-world projects.",
-//     color: "text-[#12F7D6]"
-//   }
-// ];
-
-
-
 
 export const skills = [
   {
@@ -165,29 +129,29 @@ export const projects = [
 ];
 
 
-export const workData = [
+export const educationData= [
   {
-    role: "Senior Frontend Developer",
-    company: "TechCorp Inc.",
-    duration: "2020 - Present",
+    degree: "B.Tech",
+    instituteName: "Galgotias College of Engineering and Technology , Greater Noida",
+    duration: "2023 - Present",
     description:
-      "Leading frontend development for enterprise clients, implementing modern frameworks, and mentoring junior developers.",
+      "CGPA: 8.34",
     color: "purple"
   },
   {
-    role: "Web Developer",
-    company: "Digital Solutions LLC",
-    duration: "2018 - 2020",
+    degree: "Senior Secondary",
+    instituteName: "Swami Vivekanand Intermediate College, Khadda Kushinagar",
+    duration: "2022 - 2023",
     description:
-      "Developed and maintained web applications for various clients, focusing on responsive design and performance optimization.",
+      "Percentage: 92%",
     color: "pink"
   },
   {
-    role: "Junior Developer",
-    company: "StartUp Ventures",
-    duration: "2016 - 2018",
+    degree: "High School",
+    instituteName: "Kanti Devi I C , Souharauna Kushinagar",
+    duration: "2021 - 2022",
     description:
-      "Started my career building basic websites and gradually took on more complex projects as I expanded my skill set.",
+      "Percentage: 78%",
     color: "blue"
   }
 ];

@@ -1,7 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion'
-// import { assets } from '../../assets/assets'
-import {assets, aboutInfo} from '../../assets/assets';
+import {assets, aboutInfo} from '../../assets/assets'
 const About=()=>{
     return(
         <motion.div
@@ -12,7 +11,7 @@ const About=()=>{
             id='about'
             className='py-20 bg-dark-200'
         >
-            <div className="container mx-0 px-6">
+            <div className="container mx-auto px-6">
                 {/* heading */}
                 <h2 className='text-3xl font-bold text-center mb-4'>About 
                     <span className='text-[#12F7D6]'>  Me</span>
@@ -42,16 +41,12 @@ const About=()=>{
                             <div className='rounded-2xl p-8'>
                                 <h3 className='text-2xl font-semibold mb-6'>About Me</h3>
                                 <p className='text-gray-300 mb-6'>
-                                    {/* I am a final-year B.Tech Computer Science (Artificial Intelligence & Machine Learning) student interested in Full Stack Web Development. I build responsive web applications using HTML, CSS, JavaScript, React.js, Node.js, Express.js, and MongoDB. */}
                                     I am a final-year B.Tech Computer Science (AI & ML) student with an interest in Full Stack Web Development. Skilled in HTML, CSS, JavaScript, React.js, Node.js, Express.js, and MongoDB, I build responsive web applications and regularly practice Data Structures and Algorithms. I have experience in UI development, API integration, and writing clean, maintainable code
                                 </p>
                                 <p className='text-gray-300 mb-6'>
-                                    {/* I regularly practice Data Structures and Algorithms and build projects that strengthen my frontend and backend development skills. I have experience in UI development, API integration, and writing clean, maintainable code. */}
                                     I am seeking an opportunity to apply my technical skills, learn from experienced developers, and contribute to software development projects.
                                 </p>
-                                 {/* <p className='text-gray-300 mb-6'>
-                                    I am seeking an opportunity to apply my technical skills, learn from experienced developers, and contribute to software development projects.
-                                 </p> */}
+                                 
 
                                  {/* cards */}
                                  <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>

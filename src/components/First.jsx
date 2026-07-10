@@ -20,7 +20,7 @@ const First=()=>{
                  <p className='text-lg text-grey-300 mb-8'>Aspiring Full Stack Developer with knowledge of Java, React, Node.js, Express.js, MongoDB, SQL, and Data Structures & Algorithms. I enjoy building responsive web applications and continuously improving my skills through real-world projects.</p>
 
                  <div className='flex space-x-6'>
-                    <a href="#resume" className='px-6 py-3 bg-[#12F7D6] rounded-lg font-medium hover:bg-[#09A38E] transition duration-300'>Download Resume</a>
+                    <a href="resume.pdf" className='px-6 py-3 bg-[#12F7D6] rounded-lg font-medium hover:bg-[#09A38E] transition duration-300'>Download Resume</a>
                     <a href="#contact" className='px-6 py-3 border border-[#12F7D6] rounded-lg font-medium hover:bg-[#12F7D6]/20 transition duration-300'>Contact Me</a>
                  </div>
               </div>
