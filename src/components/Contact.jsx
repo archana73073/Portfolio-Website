@@ -11,7 +11,8 @@ const Contact=()=>{
         transition={{duration:1, ease:'easeOut'}}
         viewport={{once:false, amount:0.2}}
         id='contact'
-        className='py-20 bg-dark-200'
+        // className='py-20 bg-dark-200'
+        className='py-20 bg-[#081018]'
         >
             <div className='container mx-auto px-6'>
                 <h2 className='text-3xl font-bold text-center mb-4'>Get In <span className='text-[#12F7D6]'>Touch</span></h2>
@@ -41,7 +42,7 @@ const Contact=()=>{
                                 className='w-full h-40 bg-dark-300 border border-dark-400 rounded-lg px-4 py-3 outline-none'
                                 type="text" />
                             </div>
-                            <button type='submit' className='w-full px-6 py-3 bg-[#12F7D6] rounded-lg font-medium hover:bg-[#12F7D6]/20 transition duration-300 cursor-pointer'>Send Your Message</button>
+                            <button type='submit' className='w-full px-6 py-3 bg-[#12F7D6] rounded-lg font-medium hover:scale-105 hover:text-[#081018] transition duration-300 cursor-pointer'>Send Your Message</button>
                         </form>
                     </div>
                     {/* contact information */}

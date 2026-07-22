@@ -12,7 +12,7 @@ const Projects=()=>{
         transition={{duration:1, ease:'easeOut'}}
         viewport={{once:false, amount:0.2}}
         id='projects'
-        className='py-20 bg-dark-200'
+        className='py-20 bg-[#081018]'
         >
             <div className='container mx-auto px-6'>
                 {/* Section Heading */}
@@ -37,14 +37,14 @@ const Projects=()=>{
                     ))
                  }
                </div>
-               <div className='text-center mt-12'>
+               {/* <div className='text-center mt-12'>
                 <a href="#" className='inline-flex items-center px-6 py-3 border border-[#12F7D6] rounder-lg font-medium hover:bg-[#12F7D6]/20 tarnsition duration-300 '>
                     <span>View More Projects  </span>
                     <FaArrowRight className='ml-2'/>
 
                 </a>
 
-               </div>
+               </div> */}
             </div>
 
         </motion.div>

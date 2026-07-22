@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&family=Playwrite+HU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Mozilla+Headline:wght@200..700&family=Playwrite+HU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+
 @import "tailwindcss";
 
 *{
@@ -8,7 +10,7 @@
 }
 
 @theme{
-  --color-dark-100: #1a1a1a;
+  --color-dark-100: #081018;
   --color-dark-200: #1f1f1f;
   --color-dark-300: #2d2d2d;
   --color-dark-400: #3d3d3d;
@@ -33,4 +35,25 @@
 @keyframes blink-caret{
   from, to { border-color: transparent;}
   50% {border-color: #12F7D6}
+}
+
+/* -----------------------------
+      3D Flip Card CSS
+------------------------------*/
+
+.perspective {
+  perspective: 1200px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
 }

@@ -9,7 +9,7 @@ const About=()=>{
             transition={{duration:0.6, ease:'easeOut'}}
             viewport={{once:true}}
             id='about'
-            className='py-20 bg-dark-200'
+            className='py-20 bg-[#0D1723]'
         >
             <div className="container mx-auto px-6">
                 {/* heading */}

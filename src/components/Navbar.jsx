@@ -9,9 +9,7 @@ const Navbar=()=>{
         <nav className='fixed w-full z-50 bg-dark-100/90 backdrop-blur-sm py-4 px-8 shadow-lg'>
          <div className='container mx-auto flex justify-between items-center'>
             <div>
-                <a href="#" className='text-3xl font-bold text-white'>
-                    Archana 
-                    <span className='text-[#12F7D6]'>Verma</span>
+                <a href="#" className='text-3xl font-bold text-white'>A <span className='text-[#12F7D6]'>V.</span>
                     <div className='w-4 h-4 bg-[#12F7D6] rounded-full'></div>
                 </a>
             </div>
@@ -39,6 +37,11 @@ const Navbar=()=>{
 
                 <a href="#projects" className='relative text-white/80 transition duration-300 hover:text-[#12F7D6]  group'>
                     <span>Projects</span>
+                    <span className='absolute left-0 bottom-1 w-0 h-0.5 bg-[#12F7D6] text-[#12F7D6] transition-all duration-300 group-hover:w-full'></span>
+                </a>
+
+                <a href="#certificate" className='relative text-white/80 transition duration-300 hover:text-[#12F7D6]  group'>
+                    <span>Certificate</span>
                     <span className='absolute left-0 bottom-1 w-0 h-0.5 bg-[#12F7D6] text-[#12F7D6] transition-all duration-300 group-hover:w-full'></span>
                 </a>
 

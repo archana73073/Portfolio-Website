@@ -1,9 +1,15 @@
 import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
 
-import profileImg from './arc_pic.jpg';
+import profileImg from './formal.jpeg';
 import projectImg4 from './project4.avif';
 import projectImg5 from './calculator.png';
 
+// certificates
+import javaCertificate from "./java.png";
+import tcsionCertificate from "./tcsion.png";
+import dbmsCertificate from "./dbmsinfosys.png";
+import aiToosCertificate from "./aiTools.png";
+import htmlCssJsWorkshopCertificate from "./htmlCssJsWorkshop.png";
 
 
 export const assets = {
@@ -30,7 +36,7 @@ export const skills = [
   {
     title: 'Programming Languages',
     icon: FaCode,
-    description: 'Knowledge of Java, JavaScript, Python, and C++ with hands-on coding and problem-solving experience.',
+    description: 'Knowledge of Java, JavaScript, Python with hands-on coding and problem-solving experience.',
     tags: ['Java','Javascript','Python'],
   },
   {
@@ -72,9 +78,9 @@ export const projects = [
   
   {
     title: "Portfolio Website",
-    description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
+    description: "Built a responsive portfolio using React.js, Tailwind CSS, and Vite.",
     image: projectImg4,
-    tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Markdown"],
+    tech: ["React.js", "Tailwind CSS","Vite"],
     icons: [FaReact, FaCloud],
     demo: "https://archana-portfolio73070.netlify.app/",
     code: "https://github.com/archana73073/Portfolio-Website",
@@ -118,4 +124,57 @@ export const educationData= [
       "Percentage: 78%",
     color: "blue"
   }
+];
+
+export const certificateData=[
+  {
+    id: 1,
+    title: "Programming in Java",
+    organization: "NPTEL - IIT Kharagpur",
+    duration: "Jan - Apr 2026 (12 weeks)",
+    score:"97% (Elite)",
+    image: javaCertificate,
+    view: javaCertificate,
+  },
+
+  {
+    id: 2,
+    title: "AI and Cybersecurity Awareness",
+    organization: "TCS iON - TCS Foundation",
+    date: "15 July 2026",
+    program: "AI For All",
+    image: tcsionCertificate,
+    view: tcsionCertificate,
+    // download: awsCertificate,
+  },
+
+  {
+    id: 3,
+    title: "DBMS Part - 1",
+    organization: "Infosys Springboard",
+    date: "2 Dec 2025",
+    image: dbmsCertificate,
+    view: dbmsCertificate,
+  },
+
+  {
+    id: 4,
+    title: "AI Tools Workshop",
+    organization: "be10x",
+    date: "7 Dec 2025",
+    image: aiToosCertificate,
+    view: aiToosCertificate,
+    // download: reactCertificate,
+  },
+
+  {
+    id: 5,
+    title: "HTML CSS Js Workshop",
+    organization: "Engiversee",
+    date: "2024",
+    image: htmlCssJsWorkshopCertificate,
+    view: htmlCssJsWorkshopCertificate,
+    // download: sqlCertificate,
+  },
+
 ];
